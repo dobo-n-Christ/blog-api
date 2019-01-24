@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: ogonyC30nmJekXDvNn2jE/shn9AERqH/g+Ys3bT6/9i0f8xnlocISgk+Vam+E7Cs3wqtqlCBluX2nlE8HVzQ2KtsTSNMRbVSYOQJE46uz1kIlMMU8xR2A+yLtLx8qd5yqVdl5wGfy1BwVX8q5VzmgFyIcM6LidR8YNtIUp0nviO7DohirpLaXDF23MSGChu9gGCDRFrR8oDwesojnuhkIysFTm/X2ruL3GtZrqMKPTt220BoJQQwyHvrsnGLeWqs4HrRaI0/M0KddAgRTYTbLRAvHmIyC0wmHe3F61MXTBz6iBN6jHo7YMkiUj7GdWMrXlYh8SH3ssU6c/bzZGWb9SFQLYcNY/uFZMFveCAVXRKqLvyBj/6STZBmNPHPTUMuzG9b81jn//ZX+qOaGZn4ag0ZSwHvxm454YPIW5EcaSC1Fu+20MQSkTsTXkaaemoG/JjVNp0FfT/BR5h4Yn8tCpcpN+5Y1/lzq231YPKX9hygR/979DKdn9vM2fq2oCkGT4kUD2C9P7cGr8+wsKLb/XqObnyCDxVta1xZvUOBuexa+gY+PUVPMseXoaAQHLq6fFbConOUKALQUHqeGfOO6LB0Dl+yDGSMCMqzjuxhfAdmvTuQLQK08zl3ezyN63IE/n/4hpu2v9T7O0MoqjgTFtPgtZW0zeO6JNc04ipdTrk=
+  app: hidden-bastion-29925
+  on:
+    repo: dobo-n-Christ/blog-api
